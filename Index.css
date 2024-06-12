@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden;
+}
+
+.hero-slider__slide-video {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.dirst {
+  color: black;
+  font-weight: 500;
+  height: 3em;
+  padding: 1em;
+}
+.backgroundcolor {
+  /* background-color: antiquewhite; */
+  height: 20%;
+  background-color: #e6dfd9;
+}
+#f {
+  font-family: "Playfair Display", serif;
+}
+#c {
+  color: #c55e5e;
+}
+#card {
+  width: 20%;
+}
+.backgroundshop {
+  background-color: #5bc9e8;
+}
+.shop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#card {
+  background-color: lightgrey;
+}
+#bodycard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+video {
+  width: 50%;
+}
+.imgee {
+  background-size: cover;
+
+  background-image: url("https://img.freepik.com/free-photo/composition-beauty-products-with-copy-space_23-2148574344.jpg?t=st=1715565338~exp=1715565938~hmac=7205e3ba9b659fd70631915c28687d549c61308b5a9ad3a70c790336ae99a87b");
+}
+.fontsize {
+  font-size: 6em;
+}
+
+/* نوع خط */
+.festive-regular {
+  font-family: "Festive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* نوع خط */
+.meow-script-regular {
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (min-width: 300px) and (max-width: 800.98px) {
+  .fontsize {
+    font-size: 2em;
+  }
+  video {
+    width: 100%;
+  }
+}
